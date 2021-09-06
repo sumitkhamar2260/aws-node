@@ -21,7 +21,7 @@ const server = app.listen(
   )
 );
 
-app.get("/", (req, res) => res.send("API Running"));
+app.get("/", (req, res) => res.send("Hello Saravanan"));
 
 // Handle unhandled promise rejections
 process.on("unhandledRejection", (err, promise) => {
